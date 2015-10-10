@@ -2,11 +2,15 @@
 #include <cmath>
 #include "util.h"
 #include "pak.h"
+#include "mdl.h"
 
 using namespace std;
 
-#define TestClass Pak
-#define TestFiles "../raw/monster00.pak"
+//#define TestClass Pak
+//#define TestFiles "../raw/monster00.pak"
+
+#define TestClass Mdl
+#define TestFiles "../tmp/Npc00.mdl"
 
 void work(const char *path)
 {
